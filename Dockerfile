@@ -10,7 +10,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api/ ./api/
 
 # Copy models (will be added during deployment)
-COPY models/ ./models/
+#COPY models/ ./models/
+COPY models2/ ./models2/
 
 # Expose port
 EXPOSE 8000
