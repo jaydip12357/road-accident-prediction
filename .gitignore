@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+env/
+
+# Models
+*.pkl
+*.joblib
+
+# Data
+*.csv
+data/
+
+# Credentials
+*.json
+config/*.json
+!config/config.yaml
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
