@@ -7,7 +7,8 @@ def load_local_pickle(path):
         return pickle.load(f)
 
 class ModelLoader:
-    def __init__(self, model_dir='models'):
+    #def __init__(self, model_dir='models'):
+    def __init__(self, model_dir='models2'):  # Changed from 'models' to 'models2'
         """Load all model artifacts from directory."""
         self.model_dir = model_dir
         
