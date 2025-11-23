@@ -1,0 +1,38 @@
+# Project Configuration
+project:
+  name: "Road Accident Severity Prediction"
+  version: "1.0.0"
+
+# Google Cloud
+gcp:
+  project_id: "eco-condition-479121-e3"
+  bucket_name: "road-accident-data_jaideep"
+  region: "us-central1"
+
+# Model
+model:
+  type: "logistic_regression"
+  features:
+    - speed_limit
+    - number_of_vehicles
+    - number_of_casualties
+    - hour
+    - light_conditions
+    - weather_conditions
+    - road_surface_conditions
+    - urban_or_rural_area
+
+# API
+api:
+  host: "0.0.0.0"
+  port: 8000
+```
+
+---
+
+#### **File 7: `models/.gitkeep`**
+
+Path: `models/.gitkeep`
+```
+# Placeholder for models directory
+# Model files (.pkl) are not committed to git
