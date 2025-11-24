@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/roshgill/Desktop/road-accident-prediction/mlruns/854947234667933243/b481b8bed5334e5898c12536cb691cb2/artifacts
+end_time: 1763941325931
+entry_point_name: ''
+experiment_id: '854947234667933243'
+lifecycle_stage: active
+run_id: b481b8bed5334e5898c12536cb691cb2
+run_name: logistic_regression_v1
+run_uuid: b481b8bed5334e5898c12536cb691cb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763941321844
+status: 3
+tags: []
+user_id: roshgill
