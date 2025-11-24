@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 from typing import Dict
-from model_loader import ModelLoader
+from api.model_loader import ModelLoader
 import os
 
 # Initialize FastAPI
@@ -19,7 +19,7 @@ model_loader = None
 @app.on_event("startup")
 def load_models():
     global model_loader
-    model_loader = ModelLoader(model_dir='models')
+    model_loader = ModelLoader(model_dir='models2')
 
 # Input schema
 class AccidentInput(BaseModel):
