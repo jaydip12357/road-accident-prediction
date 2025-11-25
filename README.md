@@ -62,3 +62,6 @@ To adapt for your own dataset:
 - **API**: FastAPI, Uvicorn
 - **Frontend**: Streamlit, Plotly
 - **Deployment**: Docker, Google Cloud Run
+
+## License 
+- MIT License
