@@ -1,6 +1,6 @@
 ## AI Acknowledgment
 
-This project was developed with assistance from Claude (Anthropic). AI was used for generating some parts of code, debugging, and architectural decisions
+This project was developed with assistance from Claude (Anthropic). AI was used for generating some parts of the code, debugging, and architectural decisions.
 
 # Road Accident Severity Prediction
 
