@@ -8,6 +8,40 @@ This project was developed with assistance from Claude (Anthropic). AI was used 
 
 ML pipeline for predicting road accident severity (Slight/Serious/Fatal) using UK road safety data.
 
+## Live Links
+
+**Try it yourself:** [Frontend App](https://road-accident-predictor.streamlit.app/)  
+**API:** [API Endpoint](https://road-accident-api-1028014290034.us-east1.run.app)  
+**API Docs:** [Interactive Documentation](https://road-accident-api-1028014290034.us-east1.run.app/docs)
+
+---
+
+## What This Project Does
+
+This project takes information about road conditions and predicts if an accident will be:
+- **Slight** (minor injuries)
+- **Serious** (major injuries)  
+- **Fatal** (deaths)
+
+You can enter things like speed limit, weather, time of day and the model tells you how severe an accident might be.
+
+---
+
+## Team
+
+**Students:** Jaideep Aher & Roshan Gill  
+**Course:** AIPI 510, Fall 2025  
+**University:** Duke University
+
+---
+
+## Dataset
+
+We used UK Road Safety data from 2005 to 2023. The dataset has information about 1.8 million accidents but we used 200,000 for training.
+
+**Where we got it:** [Kaggle - UK Road Safety Dataset](https://www.kaggle.com/datasets/tsiaras/uk-road-safety-accidents-and-videos)
+
+
 ## Quick Start
 
 ### 1. Install Dependencies
@@ -64,3 +98,19 @@ To adapt for your own dataset:
 - **API**: FastAPI, Uvicorn
 - **Frontend**: Streamlit, Plotly
 - **Deployment**: Docker, Google Cloud Run
+
+---
+
+## Links
+
+**GitHub:** https://github.com/jaydip12357/road-accident-prediction  
+**API:** https://road-accident-api-1028014290034.us-east1.run.app  
+**Frontend:** https://road-accident-predictor.streamlit.app/  
+**Pull Request:** https://github.com/jaydip12357/road-accident-prediction/pull/1  
+**Dataset:** https://www.kaggle.com/datasets/tsiaras/uk-road-safety-accidents-and-vehicles
+
+---
+
+
+Made with ☕ at Duke University
+
